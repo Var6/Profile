@@ -10,11 +10,10 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
+        <li>MongoDB</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>React JS</li>
+        <li>Next JS</li>
       </ul>
     ),
   },
@@ -23,18 +22,19 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Computer Science Engineering</li>
+        <li> Visvesvaraya Technological University, Banglore, India</li>
       </ul>
     ),
   },
   {
-    title: "Certifications",
-    id: "certifications",
+    title: "Experience",
+    id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>Frelancer</li>
+        <li>Junior Web Developer at Gyankoonj Pvt. Ltd.</li>
+        <li>Intern Web Developer at Cybonetics Pvt. Ltd.</li>
       </ul>
     ),
   },
@@ -80,11 +80,11 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
+              selectTab={() => handleTabChange("experience")}
+              active={tab === "experence"}
             >
               {" "}
-              Certifications{" "}
+              Experence{" "}
             </TabButton>
           </div>
           <div className="mt-8">

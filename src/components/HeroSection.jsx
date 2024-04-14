@@ -22,13 +22,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Rishabh",
                 1000,
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Python Developer",
                 1000,
-                "UI/UX Designer",
+                "Frelancer",
                 1000,
               ]}
               wrapper="span"
@@ -65,7 +65,7 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
+              src="/hero-image.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
