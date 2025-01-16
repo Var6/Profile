@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { FlipWords } from "./flipwords";
 
 const HeroSection = () => {
+  const words=['Rishabh','Web Developer','Python Developer','Freelancer','Teacher']
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -17,27 +18,13 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-3xl sm:text-5xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I'm{" "}
+              Hello, I&apos;m{" "}
             </span>
             <br></br>
-            <TypeAnimation
-              sequence={[
-                "Rishabh",
-                500,
-                "Web Developer",
-                500,
-                "Python Developer",
-                500,
-                "Frelancer",
-                500,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
+           <FlipWords words={words}/>
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Crafting captivating digital experiences, one pixel at a time. Let's bring your vision to life.
+          Crafting captivating digital experiences, one pixel at a time. Let&apos;s bring your vision to life.
           </p>
           <div>
             <Link
