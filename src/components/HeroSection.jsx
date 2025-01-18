@@ -21,7 +21,7 @@ const HeroSection = () => {
               Hello, I&apos;m{" "}
             </span>
             <br></br>
-           <FlipWords words={words}/>
+           <FlipWords words={words} className={'bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600'} />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           Crafting captivating digital experiences, one pixel at a time. Let&apos;s bring your vision to life.
