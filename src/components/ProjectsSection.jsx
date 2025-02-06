@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Var6/BB",
-    previewUrl: "/",
+    previewUrl: "https://bb-three-smoky.vercel.app/",
   },
   {
     id: 2,
