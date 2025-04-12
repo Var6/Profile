@@ -1,0 +1,15 @@
+{
+	"name": "Rishabh Ranjan",
+	"logo": "",
+	
+	"username": {
+		"github": "var6",
+		"medium": ""
+	},
+
+	"portfolio": { 
+		"forkthis": "Contact Me to build your WebApp 🥰",
+		"repo_html": "https://www.github.com/var6/profile",
+		"repo_api": "https://api.github.com/repos/var6/profile"
+	}
+}

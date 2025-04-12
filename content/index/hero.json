@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const Rishabh = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Rishabh Ranjan.",
+		"usp": "I design and build Full Stack Applications."
+	},
+
+	"paragraph": "A self-taught full-stack developer and digital creator on a mission to turn ideas into impact. I specialize in building fast, responsive, and elegant web experiences using modern technologies like Next.js, TypeScript, and Tailwind CSS. What sets me apart isn’t just code — it’s consistency, clarity, and a relentless drive to grow. From clean UI design to performance-optimized logic, I take pride in crafting solutions that not only work but feel right. Whether it’s a client project, an open-source tool, or a personal experiment — I give it everything I’ve got, every single day.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}
